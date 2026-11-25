@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Zapret Web Proxy Extension",
+  "version": "1.0",
+  "description": "Прокси через сервер Zapret в Arena.ai (настройка URL в опциях).",
+  "permissions": ["tabs", "activeTab", "storage", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
